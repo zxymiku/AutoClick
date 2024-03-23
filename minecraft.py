@@ -53,7 +53,10 @@ else:
 
 # 存储最后一次真实点击的位置和当前是否在模拟点击的状态
 last_click_position = None
+
 is_simulating_click = False
+
+
 
 def on_click(x, y, button, pressed):
     global last_click_position, is_simulating_click
